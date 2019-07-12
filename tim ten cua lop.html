@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function validate(name) {
+        let RegularExpressionPattern= /^[CAP][0-9]+[GHIKLM]$/;
+        return RegularExpressionPattern.test(name);
+    }
+    console.log(validate('C0619G1'));
+    console.log(validate('C0318G'));
+    console.log(validate('M0518G'));
+</script>
+</body>
+</html>
